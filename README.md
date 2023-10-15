@@ -3,8 +3,8 @@
 open file under cursor for evil mode.
 
 I found that `gf` command in evil mode doest work. So I wrote the following function
-to do the job. Just copy the following code to config.el and then you can you use `gf`
-just like in vim.
+to do the job. Just copy the following code to config.el, then reload(SPC h r r for
+doom emacs) or restart, then you can you use `gf` just like in vim.
 
     (defun evil-gf-open-file-under-cursor ()
       (interactive)
